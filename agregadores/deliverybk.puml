@@ -303,8 +303,8 @@ hj38QsTsJ91TAns2d4ajVerRTqL_IemxhpnrD6wRigG_nakqmuAPiYjSx0mpt_Sf3CNj5NRvOe6sBEGn
 BKEntityColoring(DeliveryBK)
 !define DeliveryBK(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, DeliveryBK, DeliveryBK)
 !define DeliveryBK(e_alias, e_label, e_techn, e_descr) BKEntity(e_alias, e_label, e_techn, e_descr, #00000000, DeliveryBK, DeliveryBK)
-!define DeliveryBKParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #00000000, DeliveryBK, DeliveryBK)
-!define DeliveryBKParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #00000000, DeliveryBK, DeliveryBK)
+!define DeliveryBKParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #000000, DeliveryBK, DeliveryBK)
+!define DeliveryBKParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #000000, DeliveryBK, DeliveryBK)
 
 
 @enduml

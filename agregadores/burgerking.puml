@@ -294,7 +294,7 @@ bzw4HZqbQYlgRBVRxNQxlm
 BKEntityColoring(BurgerKing)
 !define BurgerKing(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, BurgerKing, BurgerKing)
 !define BurgerKing(e_alias, e_label, e_techn, e_descr) BKEntity(e_alias, e_label, e_techn, e_descr, #00000000, BurgerKing, BurgerKing)
-!define BurgerKingParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #00000000, BurgerKing, BurgerKing)
-!define BurgerKingParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #00000000, BurgerKing, BurgerKing)
+!define BurgerKingParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #000000, BurgerKing, BurgerKing)
+!define BurgerKingParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #000000, BurgerKing, BurgerKing)
 
 @enduml

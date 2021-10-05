@@ -289,7 +289,7 @@ Vf9XB61c9otEz9d2sDDEkPzpCcSt1yBIisv0lcdQRBFDZyTn7CVP0m
 BKEntityColoring(Bringg)
 !define Bringg(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, Bringg, Bringg)
 !define Bringg(e_alias, e_label, e_techn, e_descr) BKEntity(e_alias, e_label, e_techn, e_descr, #00000000, Bringg, Bringg)
-!define BringgParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #00000000, Bringg, Bringg)
-!define BringgParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #00000000, Bringg, Bringg)
+!define BringgParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #000000, Bringg, Bringg)
+!define BringgParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #000000, Bringg, Bringg)
 
 @enduml

@@ -294,7 +294,7 @@ esPyerj0tDoYTXURgOJDtBvxjPTvSpauxImtk-qiDf_EtG_i0ngcp18-diIkeUo4ss1NRAdFXwllIpnk
 BKEntityColoring(NNfood)
 !define NNfood(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, NNfood, NNfood)
 !define NNfood(e_alias, e_label, e_techn, e_descr) BKEntity(e_alias, e_label, e_techn, e_descr, #00000000, NNfood, NNfood)
-!define NNfoodParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #00000000, NNfood, NNfood)
-!define NNfoodParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #00000000, NNfood, NNfood)
+!define NNfoodParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #000000, NNfood, NNfood)
+!define NNfoodParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #000000, NNfood, NNfood)
 
 @enduml
