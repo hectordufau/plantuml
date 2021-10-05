@@ -288,7 +288,7 @@ E2Zt0GiGPqXUFk_5Smzbja4Nxm7wkDmM0sCk5_Bv7hdSs84MtvfOhe_v7WjcuMKoiTfdu46PEmFEa8cb
 BKEntityColoring(Rappi)
 !define Rappi(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, Rappi, Rappi)
 !define Rappi(e_alias, e_label, e_techn, e_descr) BKEntity(e_alias, e_label, e_techn, e_descr, #00000000, Rappi, Rappi)
-!define RappiParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #00000000, Rappi, Rappi)
-!define RappiParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #00000000, Rappi, Rappi)
+!define RappiParticipant(p_alias, p_label, p_techn) BKParticipant(p_alias, p_label, p_techn, #000000, Rappi, Rappi)
+!define RappiParticipant(p_alias, p_label, p_techn, p_descr) BKParticipant(p_alias, p_label, p_techn, p_descr, #000000, Rappi, Rappi)
 
 @enduml
