@@ -1,6 +1,6 @@
 @startuml RMQ
 
-sprite $demo [90x90/color] {
+sprite $RMQ [90x90/color] {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -93,7 +93,7 @@ sprite $demo [90x90/color] {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
-sprite $demo [90x90/16] {
+sprite $RMQ16 [90x90/16] {
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -186,14 +186,14 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 }
 
-sprite $demo [90x90/16z] {
+sprite $RMQ16z [90x90/16z] {
 xTPLaiD038HXjMZ2klzf5yqEUxoexrLLVtKuSLjAD73ZzbCKPJHO_Cgjn6Cse07eFZfaazik7h03gNSK48gMCSdePd4t2YSftYaAALrwUYDrkhyiP3vWOANs
 fkERW_dvijyenrfb_SlbB6SvordESfODBDIQbvakk6kpH6jUne9dGmZS8lZanXUetIuxWremltIRWkukbdlMyZaxJm6xK5weA4bGpNAFE6AbCe9MAu_avl_z
 REHc-r1_iw31LdSpg0EhkLbeW6jk1Wt0lguSjSgwscRDpR_klI6ZycgVRgrQDaQ3hVRtipNoDoKtvx-l7xzPQvLvkhcG55-i66bCx1dgYncmYQaTKmKe-vZP
 5nLTHDHtX_YBKde5
 }
 
-sprite $demo [90x90/8] {
+sprite $RMQ8 [90x90/8] {
 __________________________________________________________________________________________
 __________________________________________________________________________________________
 __________________________________________________________________________________________
@@ -241,13 +241,13 @@ ________________________________________________________________________________
 __________________________________________________________________________________________
 }
 
-sprite $demo [90x90/8z] {
+sprite $RMQ8z [90x90/8z] {
 xTO5ZWCn44JHWdZx_YTU7dHWm5xi9rPBNnLEF9OIPXxSVWgB-4JwuMsx2nPKOWJLj-qA88y4434GmSLDiHd2e6S4UaZNDndRouHMPM6uQNapoEDbFoX7hxB-
 SZdBMSvobhESPO74e2uJDspQp1ZKPPnuDWXm07XrumtIuxA9YLpTRb5vMBOrS4qt0BfHFajWe4lPOAVD1WBToWkv-Ny_6xbPxzfl9ZvHRJTZHYqt4pDikHaB
 -hho83VdvbwV5FJxT3Sjg_f6QlVzh4_vcvARyz_NZz-iLcMkDnjq0u9YfH1g4SObwZHQS8bAiQXJA9Ud-8jIUW4
 }
 
-sprite $demo [90x90/4] {
+sprite $RMQ4 [90x90/4] {
 __________________________________________________________________________________________
 __________________________________________________________________________________________
 __________zDCCCCCCCCCCCz______________zDCCCCCCCCCCCz______________________________________
@@ -280,7 +280,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________________
 }
 
-sprite $demo [90x90/4z] {
+sprite $RMQ4z [90x90/4z] {
 xPP7SiH03CGQvF__xCkcCLUPuzYuTXKAoifjZD4BkxRl1_I4pMq_eG7YEOc5RQ-O5uRpYORnKBKIYL7DNLqtq7wpn89PITaqpvoppFnniyqsssoppJO_AUPb
 zfdpJlEtUs1lCsoRAU9TQX7LJ0SIayn8gMbcD-FcYi-6c_MWkLalj3Phe3R_GdF-acOtkxcgwJ5NzVzzFxlPVr--WanhfYbQv2UYnon5LdKBH1O2n2K4aNyI
 Opu
