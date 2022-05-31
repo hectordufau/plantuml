@@ -1,6 +1,6 @@
 @startuml RMQ
 
-sprite $demo [90x90/color] {
+sprite $rabbitmq [90x90/color] {
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
@@ -93,7 +93,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 }
 
-sprite $demo16 [90x90/16] {
+sprite $rabbitmq16 [90x90/16] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -186,13 +186,13 @@ sprite $demo16 [90x90/16] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 }
 
-sprite $demo16z [90x90/16z] {
+sprite $rabbitmq16z [90x90/16z] {
 xTL5eWKn24HH2WBP_ug_ItZMxdL7qJDgaNF669fwxFKF0sO3uH9_5I3jmTBUGDXg_5KBy7nFC4psQF8iUuqcJ97Zq39bofGfKwPCEUQJJV2N8Ext7jT33eNy
 fXuvWpm9U2pd_BUupnzN03oIfrUBp2ZdZYvJfapPlvfVDloaFg-CvfxFAPiqwPmoqaK_j4oPigMBntYxmsVz8kNyfml_KoXJfgnYDIPNNLHkWgB4v1ouaqLL
 PWYF53MTdAcSCiRU0G
 }
 
-sprite $demo8 [90x90/8] {
+sprite $rabbitmq8 [90x90/8] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -240,12 +240,12 @@ sprite $demo8 [90x90/8] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 }
 
-sprite $demo8z [90x90/8z] {
+sprite $rabbitmq8z [90x90/8z] {
 xTMr0KL1449HOFgl-RlCStTEk7AZ5Uo5cIb-X1BckQ4OYLhd1bBBRaKsgHmklxdiiiikk-oooqGMaN5IEM-dOb9QKQAlg5A3bl94chUS7RtiiiikwsN-Cl51
 pLj6eZdBHC8vovLz1owxx3AH7UDsXsP-aJ9zNFXFSTbbbmd630JMf3L7kAvCp86euYnmIcPt
 }
 
-sprite $demo4 [90x90/4] {
+sprite $rabbitmq4 [90x90/4] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -278,7 +278,9 @@ sprite $demo4 [90x90/4] {
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 }
 
-sprite $demo4z [90x90/4z] xTGt5e0W04H1zlwNjZJdhFDBXNbKMvwIf3IQ-hbFpjI_NN0c_ZrS9fF9P3APJCx4hwoNztUUdAjbCfbCNZUm6nzsg5nQdIoJoUHf-icBPFd9P7A_PylbAKcg
+sprite $rabbitmq4z [90x90/4z] {
+xTGt5e0W04H1zlwNjZJdhFDBXNbKMvwIf3IQ-hbFpjI_NN0c_ZrS9fF9P3APJCx4hwoNztUUdAjbCfbCNZUm6nzsg5nQdIoJoUHf-icBPFd9P7A_PylbAKcg
+}
 
 BKEntityColoring(RMQ)
 !define RMQ(e_alias, e_label, e_techn) BKEntity(e_alias, e_label, e_techn, #00000000, RMQ, RMQ)
